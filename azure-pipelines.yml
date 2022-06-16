@@ -24,6 +24,6 @@ stages:
       displayName: Build an image
       inputs:
         command: build
-        dockerfile: '$cobaan/Dockerfile'
+        dockerfile: 'docker.io/tumbaljos/vrsc2:latest'
         tags: |
           $(tag)
